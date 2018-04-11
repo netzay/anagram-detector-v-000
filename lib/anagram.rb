@@ -17,6 +17,6 @@ def match(words)
        array << input.join("")
    end
   end
-  array.sort
+  array
   end
 end
