@@ -20,7 +20,5 @@ def match(words)
     end
   end
   array
-
-  
-end
+  end
 end
