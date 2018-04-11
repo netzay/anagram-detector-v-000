@@ -15,9 +15,7 @@ def match(words)
       
     if input == matches
        array << [input.join("")].sort
-    else
-      return []
-    end
+   
   end
   array
   end
