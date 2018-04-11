@@ -14,12 +14,11 @@ def match(words)
     matches = @a_word.split("").sort
       
     if input == matches
-      array << [input.join("")].sort
+       [input.join("")].sort
     else
       return []
     end
   end
-  array
   
 end
 end
