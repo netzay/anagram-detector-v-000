@@ -18,6 +18,5 @@ def match(words)
       return []
     end
   end
-  input
 end
 end
