@@ -19,7 +19,7 @@ def match(words)
       return []
     end
   end
-  input
+  array
   
 end
 end
