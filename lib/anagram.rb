@@ -13,7 +13,7 @@ def match(words)
     input = word.split("").sort
     matches = @a_word.split("").sort
       
-    if input.sort == matches
+    if input.sort == matches.sort
        array << input.join("")
    end
   end
