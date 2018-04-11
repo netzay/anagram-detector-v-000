@@ -14,7 +14,7 @@ def match(words)
     matches = @a_word.split("").sort
       
     if input == matches
-       array << [input.join("")].sort
+       array << input.join("").sort
    end
   end
   array
