@@ -12,7 +12,7 @@ def match(words)
     input = word.split("").sort
     matches = @a_word.split("").sort
       
-    if input.join("") == matches.join("")
+    if input == matches
       return [input.join("")].sort
     else
       return []
