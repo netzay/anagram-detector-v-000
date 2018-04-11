@@ -8,12 +8,13 @@ def initialize(a_word)
 end
 
 def match(words)
+  array = []
   words.map do |word|
     input = word.split("").sort
     matches = @a_word.split("").sort
       
     if input == matches
-      return [input.join("")].sort
+      array = [input.join("")].sort
     else
       return []
     end
