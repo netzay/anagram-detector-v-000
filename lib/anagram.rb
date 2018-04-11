@@ -10,8 +10,8 @@ end
 def match(words)
   array = []
   words.map do |word|
-    input = word.split("").sort
-    matches = @a_word.split("").sort
+    input = word.split("")
+    matches = @a_word.split("")
       
     if input.sort == matches.sort
        array << input.join("")
